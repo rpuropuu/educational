@@ -8,9 +8,9 @@ now = time.strftime('%H%M%S')
 
 comment = input('Введите комментарий -->')
 if len(comment) == 0:
-    target = today + os.sep + mow + '.zip'
+    target = today + os.sep + now + '.zip'
 else:
-    target = today + os.sep + mow + ' ' +\
+    target = today + os.sep + now + ' ' +\
              comment.replace(' ', '_')'.zip'
 
 if not os.path.exists(today):
