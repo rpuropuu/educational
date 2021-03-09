@@ -19,7 +19,7 @@ class Robot:
         Robot.population -= 1
 
         if Robot.population == 0:
-            print('{0} юыл последним.'.format(self.name))
+            print('{0} был последним.'.format(self.name))
         else:
             print('Осталось {0:d} работающих роботов.'.format(Robot.population))
 
