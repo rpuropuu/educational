@@ -1,14 +1,29 @@
-#def reverse(text):
-#    return text[::-1]
+import string
 
 
-#def is_palindrome(text):
-#    return text == text[::-1]
+def ready_text(text):
+    some_list = list(text)
+    some_len = len(text)
+    new_some = ''
+
+    for i in range(some_len):
+        if some_list[i] not in string.punctuation and some_list[i] != ' ':
+            new_some += some_list[i]
+    return (new_some.lower())
 
 
-text = input('Введите текст: ')
+def reverse_text(text):
+    reverse_text = ready_text(text)[::-1]
+    return reverse_text
 
-if (text == text[::-1]):
-    print('Да, это палиндром')
+
+def is_palindrome(text):
+    print(text)
+    return ready_text(text) == reverse_text(text)
+
+
+something = input('Введите текст: ')
+if (is_palindrome(something)):
+    print("Да, это палиндром")
 else:
-    print('Нет, это не палиндром')
+    print("Нет, это не палиндром")
