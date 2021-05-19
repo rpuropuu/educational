@@ -12,7 +12,7 @@ ______
 
 [Файл](https://github.com/rpuropuu/educational/blob/master/matplotlib_pandas/a17_segments.ipynb) с вариантом сингл гарфиков.
 
-[Файл](https://github.com/rpuropuu/educational/blob/master/matplotlib_pandas/a17_segments.ipynb) с вариантом единого графика.
+[Файл](https://github.com/rpuropuu/educational/blob/master/matplotlib_pandas/a17.ipynb) с вариантом единого графика.
 
 ______
 
