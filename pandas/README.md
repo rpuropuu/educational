@@ -8,7 +8,7 @@ _________
 
 ![](https://github.com/rpuropuu/educational/blob/master/pandas/images/01.jpg)
 
-[Ссылка на интерактивный Dashboard](https://public.tableau.com/app/profile/derun.grigorii/viz/LeadDashboard_16231459932060/Dashboard1)
+[Ссылка на Dashboard](https://public.tableau.com/app/profile/derun.grigorii/viz/LeadDashboard_16231459932060/Dashboard1)
 
 _(В связи с недавним обновлением Tableau, сайт может открываться не сразу.)_
 
